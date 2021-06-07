@@ -1,0 +1,2 @@
+# Miniprogramme
+wechat-mini
