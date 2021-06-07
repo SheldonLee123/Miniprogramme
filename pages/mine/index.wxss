@@ -1,0 +1,122 @@
+.user_group {
+  width: 100%;
+  height: 250rpx;
+  background-image: url("http://127.0.0.1:5000/static/imgs/user_background.png");
+  background-size: 100% 100%;
+}
+.userinfo_group {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  height: 150rpx;
+}
+.userinfo_group .user_info {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  border-radius: 20rpx;
+  background-color: #ebeae7;
+  text-align: center;
+}
+.userinfo_group .user_info image {
+  width: 60%;
+}
+.userinfo_group .user_info .user_pub {
+  margin-top: 20rpx;
+  margin-left: 100rpx;
+}
+.userinfo_group .user_info .user_collect {
+  margin-top: 20rpx;
+}
+.function_group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+.function_group .customer_group {
+  margin-top: 90rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 35rpx;
+  font-weight: bold;
+  border-bottom: solid #ebeae7 3rpx;
+}
+.function_group .customer_group image {
+  margin-left: 60rpx;
+  width: 5%;
+}
+.function_group .customer_group view {
+  margin-left: 30rpx;
+  height: 20rpx;
+}
+.function_group .instruction_group {
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 35rpx;
+  font-weight: bold;
+  border-bottom: solid #ebeae7 3rpx;
+}
+.function_group .instruction_group image {
+  margin-left: 60rpx;
+  width: 5%;
+}
+.function_group .instruction_group view {
+  margin-left: 30rpx;
+  height: 20rpx;
+}
+.function_group .suggestion_group {
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 35rpx;
+  font-weight: bold;
+  border-bottom: solid #ebeae7 3rpx;
+}
+.function_group .suggestion_group image {
+  margin-left: 60rpx;
+  width: 5%;
+}
+.function_group .suggestion_group view {
+  margin-left: 30rpx;
+  height: 20rpx;
+}
+.function_group .aboutus_group {
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 35rpx;
+  font-weight: bold;
+  border-bottom: solid #ebeae7 3rpx;
+}
+.function_group .aboutus_group image {
+  margin-left: 60rpx;
+  width: 5%;
+}
+.function_group .aboutus_group view {
+  margin-left: 30rpx;
+  height: 20rpx;
+}
+.function_group .cooperation_group {
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 35rpx;
+  font-weight: bold;
+  border-bottom: solid #ebeae7 3rpx;
+}
+.function_group .cooperation_group image {
+  margin-left: 60rpx;
+  width: 5%;
+}
+.function_group .cooperation_group view {
+  margin-left: 30rpx;
+  height: 20rpx;
+}

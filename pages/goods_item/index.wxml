@@ -1,0 +1,15 @@
+<view class="user_group">
+  <image class="userimg" mode="widthFix" src="../../icons/touxiang.jpeg"></image>
+  <view class="userinfo">
+    <view class="userfirstline">
+      <view class="username">风衣怒马少年时</view>
+      <image class="location_img" mode="widthFix" src="../../icons/location.png"></image>
+      <view class="location">利兹</view>
+    </view>
+    <image class="student_img" mode="widthFix" src="../../icons/student.png"></image>
+  </view>
+</view>
+
+<image mode="widthFix" src="../../icons/1.jpeg"></image>
+
+<image mode="widthFix" src="../../icons/2.jpeg"></image>

@@ -1,0 +1,49 @@
+page{
+  height: 100%;
+}
+.cates{
+  height: 100%;
+  .cates_container{
+    /* less中使用calc的时候要注意 */
+    height: ~'calc( 100vh - 90rpx )';
+    display: flex;
+    .left_menu{
+      /* 子项 高度 100% flex */
+      flex: 2;
+     
+      .menu_item{
+        margin-top: 20rpx;
+        height: 80rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30rpx;
+      }
+      .active{
+        color: rgb(123, 206, 151);
+        border-left: 15rpx solid currentColor;
+      }
+    }
+    .right_content{
+       /* 子项 高度 100% flex */
+      flex: 5;
+      .goods_list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        navigator{
+          width: 33.33%;
+          text-align: center;
+          image{
+            margin-top: 30rpx;
+            height: 50px;    
+            width: 50px;    
+            border-radius: 25px;
+          }
+          .goods_name{}
+        }
+      }
+    }
+  }
+}

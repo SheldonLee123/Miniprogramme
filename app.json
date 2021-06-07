@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index",
+    "pages/pub/index",
+    "pages/pub_item/index",
+    "pages/goods_item/index",
+    "pages/mine/index",
+    "pages/business/index",
+    "pages/aboutus/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "栗子校园宝",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#green",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home2.png",
+        "selectedIconPath": "icons/home1.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icons/category2.png",
+        "selectedIconPath": "icons/category1.png"
+      },
+      {
+        "pagePath": "pages/pub/index",
+        "text": "发布",
+        "iconPath": "icons/pub1.png",
+        "selectedIconPath": "icons/pub1.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "消息",
+        "iconPath": "icons/msg2.png",
+        "selectedIconPath": "icons/msg1.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "icons/mine2.png",
+        "selectedIconPath": "icons/mine1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

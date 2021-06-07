@@ -1,0 +1,28 @@
+.user_group {
+  display: flex;
+  flex-direction: row;
+}
+.user_group .userimg {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 150rpx;
+}
+.user_group .userinfo {
+  flex: 5;
+}
+.user_group .userinfo .userfirstline {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.user_group .userinfo .userfirstline .location_img {
+  margin-left: 20rpx;
+  width: 4%;
+}
+.user_group .userinfo .userfirstline .location {
+  margin-left: 10rpx;
+}
+.user_group .userinfo .student_img {
+  margin-left: 20rpx;
+  width: 20%;
+}

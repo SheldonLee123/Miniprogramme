@@ -1,0 +1,37 @@
+<view class="user_group">
+</view>
+<view class="userinfo_group">
+  <view class="user_info">
+    <view class="user_pub">
+      <image mode="widthFix" src="../../icons/user_pub.png"></image>
+      <view>我的发布</view>
+    </view>
+    <view class="user_collect">
+      <image mode="widthFix" src="../../icons/user_collect.png"></image>
+      <view>我的收藏</view>
+    </view>
+    <view class="user_collect"></view>
+  </view>
+</view>
+<view class="function_group">
+  <navigator class="customer_group" open-type="contact">
+    <image mode="widthFix" src="../../icons/Customer.png"></image>
+    <view>联系客服</view>
+  </navigator>
+  <view class="instruction_group">
+    <image mode="widthFix" src="../../icons/instruction.png"></image>
+    <view>使用说明</view>
+  </view>
+  <view class="suggestion_group">
+    <image mode="widthFix" src="../../icons/suggestions.png"></image>
+    <view>投诉建议</view>
+  </view>
+  <navigator class="aboutus_group" url="/pages/aboutus/index" open-type="navigate">
+    <image mode="widthFix" src="../../icons/Aboutus.png"></image>
+    <view>关于我们</view>
+  </navigator>
+  <navigator class="cooperation_group" url="/pages/business/index" open-type="navigate">
+    <image mode="widthFix" src="../../icons/Cooperation.png"></image>
+    <view>商业合作</view>
+  </navigator>
+</view>

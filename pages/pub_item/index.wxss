@@ -1,0 +1,48 @@
+.pub_item_page button {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.pub_item_page input {
+  border: solid #000 3rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.pub_item_page textarea {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  border: solid #000 3rpx;
+}
+.pub_item_page .add_photo {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.pub_item_page .title {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.pub_item_page .price {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.pub_item_page .category {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.pub_item_page .location {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.pub_item_page .description {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.pub_item_page .pub {
+  margin-top: 30rpx;
+  text-align: center;
+  background-color: greenyellow;
+  height: 100rpx;
+}
+.pub_item_page .pub .text {
+  padding-top: 20rpx;
+  font-size: 50rpx;
+}

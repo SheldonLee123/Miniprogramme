@@ -1,0 +1,12 @@
+<view class="search_group">
+    <view class="search_input">
+      <navigator url="/pages/search/index" open-type="navigate">
+        <image mode="widthFix" src="../../icons/search.png"></image>
+        <view class="search_text">搜索</view>
+      </navigator>
+    </view>
+    <navigator class="cart_wrap" url="/pages/category/index" open-type="switchTab">
+      <image mode="widthFix" src="../../icons/category1.png"></image>
+      <view>分类</view>
+    </navigator>
+  </view>
